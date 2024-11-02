@@ -1,5 +1,5 @@
-import React, { Component } from 'react';
-import 'bootstrap/dist/css/bootstrap.min.css';
+import React, { Component } from "react";
+import "bootstrap/dist/css/bootstrap.min.css";
 
 class HeroSection extends Component {
   render() {
@@ -33,13 +33,19 @@ class HeroSection extends Component {
                       </a>
                     </li>
                     <li className="nav-item">
-                      <a className="nav-link" href="why.html">Why us</a>
+                      <a className="nav-link" href="why.html">
+                        Why us
+                      </a>
                     </li>
                     <li className="nav-item">
-                      <a className="nav-link" href="trainer.html">Trainers</a>
+                      <a className="nav-link" href="trainer.html">
+                        Trainers
+                      </a>
                     </li>
                     <li className="nav-item">
-                      <a className="nav-link" href="contact.html">Contact Us</a>
+                      <a className="nav-link" href="contact.html">
+                        Contact Us
+                      </a>
                     </li>
                   </ul>
                   <div className="user_option">
@@ -52,14 +58,17 @@ class HeroSection extends Component {
             </nav>
           </div>
         </header>
-        {/* End Header Section */}
+        {/* Header Section Ends */}
 
         {/* Slider Section */}
         <section className="slider_section position-relative">
           <div id="carouselExampleIndicators" className="carousel slide" data-ride="carousel">
             <div className="carousel-inner">
               {[...Array(5)].map((_, index) => (
-                <div className={`carousel-item ${index === 0 ? 'active' : ''}`} key={index}>
+                <div
+                  key={index}
+                  className={`carousel-item ${index === 0 ? "active" : ""}`}
+                >
                   <div className="container">
                     <div className="col-lg-10 col-md-11 mx-auto">
                       <div className="detail-box">
@@ -68,10 +77,14 @@ class HeroSection extends Component {
                           <h2>Training</h2>
                           <h1>Neogym</h1>
                           <p>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse.
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+                            tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
+                            veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
+                            commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
+                            velit esse.
                           </p>
                           <div className="">
-                            <a href="">Contact Us</a>
+                            <a href="contact.html">Contact Us</a>
                           </div>
                         </div>
                       </div>
@@ -86,7 +99,7 @@ class HeroSection extends Component {
                   key={index}
                   data-target="#carouselExampleIndicators"
                   data-slide-to={index}
-                  className={index === 0 ? 'active' : ''}
+                  className={index === 0 ? "active" : ""}
                 ></li>
               ))}
             </ol>
