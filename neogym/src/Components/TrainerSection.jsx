@@ -1,10 +1,10 @@
 import React, { Component } from "react";
-import trainer1 from "./path/to/images/t1.jpg";
-import trainer2 from "./path/to/images/t2.jpg";
-import trainer3 from "./path/to/images/t3.jpg";
-import facebookLogo from "./path/to/images/facebook-logo.png";
-import twitterLogo from "./path/to/images/twitter.png";
-import instagramLogo from "./path/to/images/instagram-logo.png";
+import trainer1 from "../images/t1.jpg";
+import trainer2 from "../images/t2.jpg";
+import trainer3 from "../images/t3.jpg";
+import facebookLogo from "../images/facebook-logo.png";
+import twitterLogo from "../images/twitter.png";
+import instagramLogo from "../images/instagram-logo.png";
 
 class TrainerSection extends Component {
   render() {
