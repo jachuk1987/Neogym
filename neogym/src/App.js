@@ -4,6 +4,7 @@ import HeaderSection from './Components/HeaderSection';
 import SliderSection from './Components/SliderSection';
 import UsSection from './Components/UsSection';
 import HealthySection from './Components/HealthySection';
+import TrainerSection from './Components/TrainerSection';
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
       <SliderSection />
       <UsSection />
       <HealthySection />
+      <TrainerSection />
     </div>
   );
 }
