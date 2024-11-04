@@ -6,6 +6,7 @@ import UsSection from './Components/UsSection';
 import HealthySection from './Components/HealthySection';
 import TrainerSection from './Components/TrainerSection';
 import ContactSection from './Components/ContactSection';
+import InfoSection from './Components/InfoSection';
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
       <HealthySection />
       <TrainerSection />
       <ContactSection />
+      <InfoSection />
     </div>
   );
 }
