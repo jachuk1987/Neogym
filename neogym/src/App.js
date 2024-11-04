@@ -15,7 +15,7 @@ function App() {
       <UsSection />
       <HealthySection />
       <TrainerSection />
-      {/* <ContactSection /> */}
+      <ContactSection />
     </div>
   );
 }
