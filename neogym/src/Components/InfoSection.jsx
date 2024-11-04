@@ -1,7 +1,7 @@
 import React, { Component } from "react";
-import locationIcon from "../images/location-icon.jpg"; // Update path as needed
-import phoneIcon from "../images/phone-icon.jpg";
-import emailIcon from "../images/email-icon.jpg";
+import locationIcon from "../images/location-white.png"; // Update path as needed
+import phoneIcon from "../images/telephone-white.png";
+import emailIcon from "../images/envelope-white.png";
 
 class InfoSection extends Component {
   render() {
