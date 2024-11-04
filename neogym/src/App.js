@@ -7,6 +7,7 @@ import HealthySection from './Components/HealthySection';
 import TrainerSection from './Components/TrainerSection';
 import ContactSection from './Components/ContactSection';
 import InfoSection from './Components/InfoSection';
+import FooterSection from './Components/FooterSection';
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
       <TrainerSection />
       <ContactSection />
       <InfoSection />
+      <FooterSection />
     </div>
   );
 }
