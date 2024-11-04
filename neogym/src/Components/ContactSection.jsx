@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import contactImage from "../images/contact-img.jpg"; // Adjust the path as needed
+import contactImage from "../images/contact-img.jpg";
 
 class ContactSection extends Component {
   constructor(props) {
