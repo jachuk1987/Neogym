@@ -12,7 +12,7 @@ class FooterSection extends Component {
         </p>
       </footer>
     );
-  }
+  };
 }
 
 export default FooterSection;
