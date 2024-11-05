@@ -13,6 +13,6 @@ class FooterSection extends Component {
       </footer>
     );
   };
-}
+};
 
 export default FooterSection;
