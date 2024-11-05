@@ -49,6 +49,6 @@ class InfoSection extends Component {
       </section>
     );
   };
-}
+};
 
 export default InfoSection;
