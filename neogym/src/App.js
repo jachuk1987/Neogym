@@ -22,6 +22,6 @@ function App() {
       <FooterSection />
     </div>
   );
-}
+};
 
 export default App;
