@@ -47,7 +47,7 @@ class InfoSection extends Component {
           </div>
         </div>
       </section>
-    );
+    )
   }
 }
 
