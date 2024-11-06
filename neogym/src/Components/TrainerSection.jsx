@@ -85,7 +85,7 @@ class TrainerSection extends Component {
         </div>
       </section>
     );
-  };
+  }
 }
 
 export default TrainerSection;
