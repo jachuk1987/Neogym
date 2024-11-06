@@ -84,7 +84,7 @@ class TrainerSection extends Component {
           </div>
         </div>
       </section>
-    );
+    )
   }
 }
 
