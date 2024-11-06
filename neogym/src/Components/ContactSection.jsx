@@ -88,7 +88,7 @@ class ContactSection extends Component {
           </div>
         </div>
       </section>
-    );
+    )
   }
 }
 
