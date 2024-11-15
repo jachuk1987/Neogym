@@ -58,6 +58,6 @@ class HeaderSection extends Component {
       </header>
     );
   };
-}
+};
 
 export default HeaderSection;
