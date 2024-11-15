@@ -30,6 +30,6 @@ class HealthySection extends Component {
       </section>
     );
   };
-}
+};
 
 export default HealthySection;
