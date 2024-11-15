@@ -89,7 +89,7 @@ class ContactSection extends Component {
         </div>
       </section>
     );
-  }
+  };
 };
 
 export default ContactSection;
