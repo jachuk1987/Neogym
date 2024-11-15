@@ -90,6 +90,6 @@ class ContactSection extends Component {
       </section>
     )
   }
-}
+};
 
 export default ContactSection;
