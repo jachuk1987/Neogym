@@ -29,7 +29,7 @@ class HealthySection extends Component {
         </div>
       </section>
     );
-  }
+  };
 }
 
 export default HealthySection;
